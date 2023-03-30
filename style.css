@@ -1,7 +1,7 @@
-* {
-  box-sizing: border-box;
+*{
   margin: 0;
   padding: 0;
+  box-sizing: border-box
 }
 
 header {
@@ -63,4 +63,63 @@ main {
 footer {
   height: 50px;
   background-color: #aaa;
+}
+
+@media screen and (max-width: 960px){
+main{
+    display: block;
+    width: 100%;
+  }
+  
+  .step-box{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  
+  .step-img1{
+    height: 150px;
+    /*position: top*/
+  }
+  
+  .step-img2{
+    height: 150px;
+    /*position: top*/
+  }
+  
+  .step-img3{
+    height: 150px;
+    /*position: top*/
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  main{
+    display: block;
+    width: 100%;
+  }
+  
+  .step-box{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  
+  .step-img1{
+    height: 150px;
+    /*position: bottom*/
+  }
+  
+  .step-img2{
+    height: 150px;
+    /*position: bottom*/
+  }
+  
+  .step-img3{
+    height: 150px;
+    /*position: bottom*/
+  }
 }
